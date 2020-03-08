@@ -162,7 +162,7 @@ p {
 }
 .title {
   border: 2px solid red;
-  background-color: #F5F5F5;
+  background-color: #F8F8F8;
 }
 .title h1 {
   font-size: 3rem;
@@ -171,12 +171,14 @@ p {
 .title nav {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .title nav a {
-  padding: 10px;
+  margin: 1%;
+  padding: 0.5%;
   text-decoration: none;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 footer {
   color: #22283B;
