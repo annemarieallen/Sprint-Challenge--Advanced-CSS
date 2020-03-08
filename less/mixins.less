@@ -10,3 +10,21 @@
 	margin: 1%; 
 	padding: .5%;
 }
+
+// button
+
+.button(@background,@color:#fff){
+    display: inline-block;
+    padding: 8px 25px; 
+    border-radius: 6px;
+
+    font-size: 2rem; 
+
+    background: @background; 
+    color: @color; 
+
+    &:hover{
+        background: lighten(@background, 30%);
+        color: pink;
+    }
+}
