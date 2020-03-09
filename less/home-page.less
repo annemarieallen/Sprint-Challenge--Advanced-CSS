@@ -96,13 +96,8 @@
         .button (#000033);
         
         @media @phone{
-          align-items: center;
-          margin-left: 0%;
           padding: 15px 180px; 
-          font-size: 1.2rem;
-          white-space: nowrap;
-          text-align: center;
-          border-radius: 3px;
+          .phone-button-nav;
         }// media query for phone in button
 
       }
@@ -135,5 +130,25 @@
 
       }
     }
+
+
   }
+
+  footer{
+
+    @media @phone{
+      padding: 15px 200px;
+      border-radius: 8px;
+      width: 90%; 
+      margin-top: -6%;
+    }
+  }
+
+  .footer{
+    @media @phone{
+      .phone-button-nav;
+      .flex-center;
+    }
+}
+
 }// home

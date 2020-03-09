@@ -279,9 +279,9 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
+    padding: 15px 180px;
     align-items: center;
     margin-left: 0%;
-    padding: 15px 180px;
     font-size: 1.2rem;
     white-space: nowrap;
     text-align: center;
@@ -313,5 +313,25 @@ footer {
   .home .walk .walk-img img {
     height: 300px;
     width: auto;
+  }
+}
+@media (max-width: 500px) {
+  .home footer {
+    padding: 15px 200px;
+    border-radius: 8px;
+    width: 90%;
+    margin-top: -6%;
+  }
+}
+@media (max-width: 500px) {
+  .home .footer {
+    margin-left: 0%;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
