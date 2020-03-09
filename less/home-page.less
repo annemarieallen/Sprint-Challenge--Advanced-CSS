@@ -18,8 +18,7 @@
 
       @media @phone {
         .img-size(130px);
-        border: 2px solid red;
-      }
+      }// media query for phone for header img
     }
   
   }
@@ -29,11 +28,31 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @phone {
+      .flex-center();
+
+      .blast{
+        .img-size(340px);
+      }
+
+      .sky{
+        display: none;
+      }
+
+      .launch{
+        display:none;
+      }
+
+    }// media query for phone in content images 
+
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      
+      
 
     }
   }
@@ -57,6 +76,11 @@
     display: flex;
     justify-content: center;
 
+    @media @phone{
+      flex:display;
+      flex-direction: column-reverse;
+    }//media query for phone in .walk section 
+
     .walk-text {
       width: 50%;
 
@@ -70,17 +94,45 @@
 
       .btn {
         .button (#000033);
+        
+        @media @phone{
+          align-items: center;
+          margin-left: 0%;
+          padding: 15px 180px; 
+          font-size: 1.2rem;
+          white-space: nowrap;
+          text-align: center;
+          border-radius: 3px;
+        }// media query for phone in button
+
       }
+
+      @media @phone{
+       width: 100%;
+      }
+
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      @media @phone{
+        display: inline-block;
+        margin-left:0%;
+        margin-bottom: 2%;
+      }
+
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        @media @phone {
+          .img-size(300px);
+        }
+
       }
     }
   }
