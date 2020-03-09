@@ -161,11 +161,12 @@ p {
   margin: 0 auto;
 }
 .title {
-  border: 2px solid red;
   background-color: #F8F8F8;
+  margin: 1%;
+  padding: 0.5%;
 }
 .title h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
 }
 .title nav {
@@ -195,6 +196,16 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .home .intro img {
+    height: 130px;
+    width: auto;
+    border: 2px solid red;
+  }
 }
 .home .space-images {
   display: flex;
