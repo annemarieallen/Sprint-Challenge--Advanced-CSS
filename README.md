@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites are static and use media queries that respond at different breakpoints. A fully responsive website does not need the specific breakpoints and adapts no matter the screen size. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means to create for mobile usage and then adjust for desktop. Desktop first means creating a website primarily for desktop usage and then adjusting for mobile viewing. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The font-size of 62.5% allows us to use REM and EM off a pixel size of 10px because 62.5% of 16px is 10px. This allows for ease in responsive font usage for different screen sizes and for accessibility.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a language that allows us to extend the capabilities and allow for more ease of usage of CSS. It allows us to generate features that do not exist in CSS itself. 
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+In preprocessing, I am most fascinated by less and compilers. It’s fascinating that someone built a language around this markup language. To me, it shows the potential of coding and programming, demonstrating that if there’s a logical and easier way of doing something, a program can be built to accomplish that. It is an aspirational way of understanding programming. However, it also largely confuses me because this is the first time I’ve seen capabilities like this and I don’t understand how it works. Like Diandra encouraged us to understand while learning programming, some things will remain as black boxes. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

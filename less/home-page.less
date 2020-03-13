@@ -11,6 +11,15 @@
     p {
       padding:0 15px;
     }
+
+    img{
+
+      border-radius: 5px;
+
+      @media @phone {
+        .img-size(130px);
+      }// media query for phone for header img
+    }
   
   }
 
@@ -19,11 +28,32 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @phone {
+      .flex-center();
+
+      .blast{
+        .img-size(340px);
+      }
+
+      .sky{
+        display: none;
+      }
+
+      .launch{
+        display:none;
+      }
+
+    }// media query for phone in content images 
+
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      
+      
+
     }
   }
 
@@ -46,6 +76,11 @@
     display: flex;
     justify-content: center;
 
+    @media @phone{
+      flex:display;
+      flex-direction: column-reverse;
+    }//media query for phone in .walk section 
+
     .walk-text {
       width: 50%;
 
@@ -58,18 +93,62 @@
       }
 
       .btn {
+        .button (#000033);
+        
+        @media @phone{
+          padding: 15px 180px; 
+          .phone-button-nav;
+        }// media query for phone in button
+
       }
+
+      @media @phone{
+       width: 100%;
+      }
+
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      @media @phone{
+        display: inline-block;
+        margin-left:0%;
+        margin-bottom: 2%;
+      }
+
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        @media @phone {
+          .img-size(300px);
+        }
+
       }
     }
+
+
   }
+
+  footer{
+
+    @media @phone{
+      padding: 15px 200px;
+      border-radius: 8px;
+      width: 90%; 
+      margin-top: -6%;
+    }
+  }
+
+  .footer{
+    @media @phone{
+      .phone-button-nav;
+      .flex-center;
+    }
+}
+
 }// home
